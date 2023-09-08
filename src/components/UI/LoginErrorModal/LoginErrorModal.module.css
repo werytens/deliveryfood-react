@@ -1,0 +1,19 @@
+.modal {
+    position: absolute; display: none;
+
+    left: 50%;
+    transform: translate(-50%);
+
+    padding: 30px;
+
+    top: 10px;
+
+    background: white;
+    color: black;
+
+    z-index: 4;
+}
+
+.active {
+    display: flex;
+}

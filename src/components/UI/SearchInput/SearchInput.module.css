@@ -1,0 +1,36 @@
+.input {
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 8px 8px 35px;
+    background-repeat: no-repeat;
+    background-position: left 11px center;
+
+    width: 700px !important;
+}
+
+.input_address {
+    width: 80%;
+    background-image: url(../../../img/icon/home.svg);
+}
+
+@media (max-width: 1470px) {
+    .input {
+        width: 500px !important;
+    }
+}
+
+@media (max-width: 960px) {
+    .input {
+        width: 300px !important;
+        padding: 8px 0;
+    }
+}
+
+@media (max-width: 690px) {
+    .input {
+        display: none;
+    }
+}

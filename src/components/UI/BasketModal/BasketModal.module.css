@@ -1,0 +1,64 @@
+.modal {
+    position: fixed; display: none;
+
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+
+    background: rgba(0,0,0, 0.5);
+    z-index: 2;
+}
+
+.active {
+    display: flex;
+}
+
+.modal__inner {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: white;
+
+    color: black !important;
+    padding: 15px;
+    z-index: 3;
+
+    min-width: 400px;
+}
+
+.basket__title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.purshate__ending {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price__all {
+    padding: 5px 8px;
+
+    background: #1890ff;
+}
+
+.buy {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: #1890ff;
+    border: 1px solid #1890ff;
+    color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.0015);
+    border-radius: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.buy:hover {
+    background: inherit;
+    color: #1890ff;
+}

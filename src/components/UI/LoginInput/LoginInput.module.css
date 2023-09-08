@@ -1,0 +1,12 @@
+input {
+    border: 0;
+    border-bottom: 2px black solid;
+
+    width: 200px;
+    padding: 10px;
+    padding-bottom: 2px;
+
+    text-align: center;
+
+    outline: none;
+}

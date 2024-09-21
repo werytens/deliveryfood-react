@@ -1,12 +1,20 @@
 input {
   border: 0;
-  border-bottom: 2px black solid;
+  border: 2px #1890ff solid;
+  border-radius: 10px;
 
-  width: 200px;
+  width: 250px;
   padding: 10px;
-  padding-bottom: 2px;
+  padding-bottom: 10px;
 
   text-align: center;
 
+  margin-top: 5px;
+  margin-bottom: 5px;
+
   outline: none;
+}
+
+input::placeholder {
+  color: black;
 }

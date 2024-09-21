@@ -2,8 +2,6 @@ import React from "react";
 import cl from "../styles/FoodItem.module.css";
 
 const FoodItem = ({ data, callback }) => {
-  console.log(data);
-
   return (
     <div className={cl.main} onClick={() => callback(data)}>
       <div className={cl.banner}>

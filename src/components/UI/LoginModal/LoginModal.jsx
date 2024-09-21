@@ -74,12 +74,10 @@ const LoginModal = ({ visible, setVisible }) => {
         <form action="">
           <div className={cl.inputs}>
             <LoginInput type={"text"} callback={loginInfoAdd}>
-              {" "}
-              Введите имя пользователя{" "}
+              Введите имя пользователя
             </LoginInput>
             <LoginInput type={"password"} callback={loginInfoAdd}>
-              {" "}
-              Введите пароль{" "}
+              Введите пароль
             </LoginInput>
           </div>
           <div className={cl.buttons}>

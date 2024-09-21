@@ -1,19 +1,20 @@
 .modal {
-    position: absolute; display: none;
+  position: absolute;
+  display: none;
 
-    left: 50%;
-    transform: translate(-50%);
+  left: 50%;
+  transform: translate(-50%);
 
-    padding: 30px;
+  padding: 30px;
 
-    top: 10px;
+  top: 10px;
 
-    background: white;
-    color: black;
+  background: white;
+  color: black;
 
-    z-index: 4;
+  z-index: 4;
 }
 
 .active {
-    display: flex;
+  display: flex;
 }

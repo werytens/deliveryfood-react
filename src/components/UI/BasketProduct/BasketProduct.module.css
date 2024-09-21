@@ -1,37 +1,37 @@
 .main {
-    min-width: 100px;
+  min-width: 100px;
 
-    background: black;
-    color: white;
+  background: black;
+  color: white;
 
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    padding: 10px 5px;
+  padding: 10px 5px;
 
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .actions {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .actions div {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .actions button {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 
 .button {
-    border: 0;
+  border: 0;
 
-    background: inherit;
-    color: white;
+  background: inherit;
+  color: white;
 }
 
 .button:hover {
-    color: red;
+  color: red;
 }

@@ -1,36 +1,35 @@
 .navbar {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
-    margin: 40px 0;
-    min-height: 3.5vh;
+  margin: 40px 0;
+  min-height: 3.5vh;
 }
 
 .log__section {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 
-    min-width: 290px;
+  min-width: 290px;
 }
 
 .username {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-style: normal;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
 }
 
-
 @media (max-width: 960px) {
-    .navbar {
-        justify-content: center;
-    }
+  .navbar {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 600px) {
-    .input {
-        display: none;
-    }
+  .input {
+    display: none;
+  }
 }

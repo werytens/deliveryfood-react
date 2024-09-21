@@ -1,42 +1,46 @@
 .modal {
-    position: fixed; display: none;
+  position: fixed;
+  display: none;
 
-    top: 0; left: 0;
-    width: 100%; height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 
-    background: rgba(0,0,0, 0.5);
-    z-index: 2;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
 }
 
 .active {
-    display: flex;
+  display: flex;
 }
 
 .modal__inner {
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-    background: white;
+  background: white;
 
-    color: black !important;
-    padding: 10px;
-    z-index: 3;
+  color: black !important;
+  padding: 10px;
+  z-index: 3;
 }
 
 .inputs {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 h3 {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .buttons {
-    margin-top: 20px;
+  margin-top: 20px;
 
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }

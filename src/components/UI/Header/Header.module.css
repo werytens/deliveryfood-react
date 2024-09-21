@@ -1,51 +1,53 @@
 .header {
-    width: 100%;
-    height: 35vh;
+  width: 100%;
+  height: 35vh;
 
-    background: #fff1b8 url(../../../img/promo/pizza.png) no-repeat top -100px right -250px / 830px;
-    padding: 68px 70px;
-    border-radius: 10px;
+  background: #fff1b8 url(../../../img/promo/pizza.png) no-repeat top -100px right -250px /
+    830px;
+  padding: 68px 70px;
+  border-radius: 10px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .main__header__text {
-    font-size: 48px;
-    width: 38%;
+  font-size: 48px;
+  width: 38%;
 
-    font-style: normal;
-    font-weight: bold;
-    font-size: 39px;
-    line-height: 46px;
-    color: #302c34;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 39px;
+  line-height: 46px;
+  color: #302c34;
 
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .main__header__description {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    color: #302c34;
-    max-width: 538px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #302c34;
+  max-width: 538px;
 }
 
 @media (max-width: 960px) {
-    .main__header__text {
-        width: 60%;
-    }
+  .main__header__text {
+    width: 60%;
+  }
 
-    .header {
-        background: #fff1b8 url(../../../img/promo/pizza.png) no-repeat top -200px right -450px / 830px;
-    }
+  .header {
+    background: #fff1b8 url(../../../img/promo/pizza.png) no-repeat top -200px right -450px /
+      830px;
+  }
 }
 
 @media (max-width: 690px) {
-    .main__header__text {
-        width: 70%;
-    }
+  .main__header__text {
+    width: 70%;
+  }
 }

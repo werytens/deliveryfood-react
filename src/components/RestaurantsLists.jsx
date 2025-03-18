@@ -33,7 +33,7 @@ const RestaurantsLists = () => {
     <div className={cl.root}>
       <div className={cl.header}>
         <div className={cl.title}>Рестораны</div>
-        <FoodSearchInput text="Поиск блюд и ресторанов" callback={sort} />
+        <FoodSearchInput text="Поиск ресторанов" callback={sort} />
       </div>
       <div className={cl.items__list}>
         <div className={cl.main}>

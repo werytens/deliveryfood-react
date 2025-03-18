@@ -39,10 +39,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 10px;
 }
 
 .price__all {
   padding: 5px 8px;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
 
   background: #1890ff;
 }

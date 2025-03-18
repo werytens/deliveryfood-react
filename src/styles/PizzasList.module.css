@@ -1,8 +1,14 @@
 .description {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   margin-bottom: 40px;
+}
+
+.content__items {
+  display: flex;
+  align-items: center;
 }
 
 .title {

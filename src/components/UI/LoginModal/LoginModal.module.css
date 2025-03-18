@@ -16,6 +16,9 @@
 }
 
 .modal__inner {
+  padding: 30px !important;
+  border-radius: 6px;
+
   position: absolute;
   top: 50%;
   left: 50%;

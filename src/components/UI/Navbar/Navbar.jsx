@@ -45,7 +45,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className={cl.searchinput}>
-        <SearchInput text="Адрес доставки" />
+        {/* <SearchInput text="Адрес доставки" disabled /> */}
       </div>
       <div className={cl.joinbutton}>
         {!isLogin ? (

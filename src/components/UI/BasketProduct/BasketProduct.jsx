@@ -52,7 +52,7 @@ const BasketProduct = ({ props, callbacks }) => {
             -
           </button>
           <button className={cl.button} onClick={removeItem}>
-            Remove
+            Удалить
           </button>
         </div>
       </div>

@@ -1,5 +1,6 @@
 .container {
   width: 1400px;
+  min-height: 80vh;
 }
 
 @media (max-width: 1366px) {

@@ -1,15 +1,20 @@
 .main {
   min-width: 100px;
 
-  background: black;
+  background: rgb(124, 124, 124);
   color: white;
 
   display: flex;
   justify-content: space-between;
 
-  padding: 10px 5px;
+  padding: 20px 25px;
+  border-radius: 6px;
 
-  margin: 10px 0;
+  margin: 40px 0;
+}
+
+.left__side {
+  margin-right: 10px;
 }
 
 .actions {
